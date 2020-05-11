@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "artstore-d9340": {
+      "hosting": {
+        "ArtStore": [
+          "artstore-d9340"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "ArtStore",
+      "public": "dist/ArtStore",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}
